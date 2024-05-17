@@ -1,5 +1,6 @@
 {
   "javascript.format.semicolons": "insert",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF"
 }
