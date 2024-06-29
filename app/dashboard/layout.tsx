@@ -1,4 +1,10 @@
+import { Metadata } from 'next';
+
 import Sidenav from '@/app/ui/dashboard/sidenav';
+
+export const metadata: Metadata = {
+  title: { template: '%s | Dashboard', default: 'Dashboard' },
+};
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
